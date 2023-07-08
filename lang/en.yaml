@@ -1,0 +1,40 @@
+home: Home
+homeLink: ''
+about: 'About'
+aboutLink: ''
+files: Files
+filesLink: ''
+statistic: Statistics
+statisticLink: ''
+donate: Donations
+donateLink: ''
+forum: Forum
+forumLink: ''
+cabinet: 'Login to Cabinet'
+cabinetLink: ''
+headerTitle: Rebirth Interlude x1!
+headerText: This is some Russian promotional text in the header of the site, literally a few lines to increase interest in the project!
+startGame: 'Start Game'
+startGameLink: ''
+online: 'Online'
+serverStartWith: 'Server started with 25.08.2021'
+showMoreStatistic: 'View Detailed Statistics!'
+showMoreStatisticLink: 'View Detailed Statistics!'
+serverStatus: 'Server temporarily unavailable!'
+castleRatting: 'Castle Ratings'
+castleName: 'Castle Name'
+castleOwner: Owner
+rattingCharacters: 'Player Ratings'
+character: Player
+themeWithForum: 'Forum Topics'
+copyright: 'These servers are LINEAGE 2 game emulators with their modifications. The use of our service is for informational purposes only..'
+register: Register
+registerLink: ''
+goForum: 'Go to Forum'
+goForumLink: ''
+helper: Support
+helperLink: ''
+vkLink: ''
+fbLink: ''
+youtubeLink: ''
+onlineMultiply: 3

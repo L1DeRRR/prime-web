@@ -1,0 +1,40 @@
+home: Главная
+homeLink: ''
+about: 'О проекте'
+aboutLink: vk.com
+files: Файлы
+filesLink: ''
+statistic: Статистика
+statisticLink: ''
+donate: Пожертвования
+donateLink: ''
+forum: Форум
+forumLink: ''
+cabinet: 'Войти в кабинет'
+cabinetLink: ''
+headerTitle: 'Возрождение Interlude x1!'
+headerText: 'Это какой-то русский промо-текст в шапке сайта, буквально несколько строк для поднятия интереса к проекту!'
+startGame: 'Начать игру'
+startGameLink: ''
+online: 'В игре'
+serverStartWith: 'Сервер запущен с 25.08.2021'
+showMoreStatistic: 'Посмотреть подробную статистику!'
+showMoreStatisticLink: 'Посмотреть подробную статистику!'
+serverStatus: 'Сервер временно недоступен!'
+castleRatting: 'Рейтинг замков'
+castleName: 'Название замка'
+castleOwner: Владелец
+rattingCharacters: 'Рейтинг игроков'
+character: Игрок
+themeWithForum: 'Темы с форума'
+copyright: 'Данные серверы являются эмулятором игры LINEAGE 2 со своими доработками. Использование нашего сервиса носит исключительно ознакомительный характер.'
+register: Регистрация
+registerLink: ''
+goForum: 'Перейти на форум'
+goForumLink: '1'
+helper: Поддержка
+helperLink: ''
+vkLink: ''
+fbLink: ''
+youtubeLink: ''
+onlineMultiply: '1'

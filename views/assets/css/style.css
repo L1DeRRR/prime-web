@@ -1,0 +1,2715 @@
+@charset "UTF-8";
+/* ----------------------------------------------------------------------------------------------------- Unsimple Group */
+/* Imports */
+/* -------------------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------- Unsimple Group */
+/* fonts */
+/* -------------------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------- Unsimple Group */
+/* King */
+/* -------------------------------------------------------------------------------------------------------------------- */
+@font-face {
+    font-family: 'King';
+    src: url("../fonts/SPSLOldKingC.eot");
+    src: local("☺"), url("../fonts/SPSLOldKingC.woff") format("woff"), url("../fonts/SPSLOldKingC.ttf") format("truetype"), url("../fonts/SPSLOldKingC.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'King-Bold';
+    src: url("../fonts/SPSLOldKingC-Bold.eot");
+    src: local("☺"), url("../fonts/SPSLOldKingC-Bold.woff") format("woff"), url("../fonts/SPSLOldKingC-Bold.ttf") format("truetype"), url("../fonts/SPSLOldKingC-Bold.svg") format("svg");
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* ----------------------------------------------------------------------------------------------------- Unsimple Group */
+/* Geometria */
+/* -------------------------------------------------------------------------------------------------------------------- */
+@font-face {
+    font-family: 'Geometria';
+    font-style: normal;
+    font-weight: normal;
+    src: local("Geometria"), url("../fonts/geometria/Geometria.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Geometria-Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local("Geometria-Italic"), url("../fonts/geometria/Geometria-Italic.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Geometria-Thin';
+    font-style: normal;
+    font-weight: normal;
+    src: local("Geometria-Thin"), url("../fonts/geometria/Geometria-Thin.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Geometria-ThinItalic';
+    font-style: normal;
+    font-weight: normal;
+    src: local("Geometria-ThinItalic"), url("../fonts/geometria/Geometria-ThinItalic.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Geometria-ExtraLight';
+    font-style: normal;
+    font-weight: normal;
+    src: local("Geometria-ExtraLight"), url("../fonts/geometria/Geometria-ExtraLight.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Geometria-ExtraLightItalic';
+    font-style: normal;
+    font-weight: normal;
+    src: local("Geometria-ExtraLightItalic"), url("../fonts/geometria/Geometria-ExtraLightItalic.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Geometria-Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local("Geometria-Light"), url("../fonts/geometria/Geometria-Light.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Geometria-LightItalic';
+    font-style: normal;
+    font-weight: normal;
+    src: local("Geometria-LightItalic"), url("../fonts/geometria/Geometria-LightItalic.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Geometria-Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local("Geometria-Medium"), url("../fonts/geometria/Geometria-Medium.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Geometria-MediumItalic';
+    font-style: normal;
+    font-weight: normal;
+    src: local("Geometria-MediumItalic"), url("../fonts/geometria/Geometria-MediumItalic.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Geometria-Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local("Geometria-Bold"), url("../fonts/geometria/Geometria-Bold.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Geometria-BoldItalic';
+    font-style: normal;
+    font-weight: normal;
+    src: local("Geometria-BoldItalic"), url("../fonts/geometria/Geometria-BoldItalic.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Geometria-ExtraBold';
+    font-style: normal;
+    font-weight: normal;
+    src: local("Geometria-ExtraBold"), url("../fonts/geometria/Geometria-ExtraBold.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Geometria-ExtraBoldItalic';
+    font-style: normal;
+    font-weight: normal;
+    src: local("Geometria-ExtraBoldItalic"), url("../fonts/geometria/Geometria-ExtraBoldItalic.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Geometria-Heavy';
+    font-style: normal;
+    font-weight: normal;
+    src: local("Geometria-Heavy"), url("../fonts/geometria/Geometria-Heavy.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Geometria-HeavyItalic';
+    font-style: normal;
+    font-weight: normal;
+    src: local("Geometria-HeavyItalic"), url("../fonts/geometria/Geometria-HeavyItalic.woff") format("woff");
+}
+
+/* ----------------------------------------------------------------------------------------------------- Unsimple Group */
+/* Default Settings */
+/* -------------------------------------------------------------------------------------------------------------------- */
+html, body, header, nav, section, aside, article, footer, div,
+span, applet, object, iframe, p, blockquote, pre, a, abbr, acronym,
+address, big, cite, code, del, dfn, img, ins, kbd, q, s, samp, small,
+strike, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form,
+label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-family: 'Geometria';
+    color: #3d3934;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    font-weight: inherit;
+    color: inherit;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    color: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+b, span {
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+}
+
+font {
+    font-family: inherit;
+    font-size: inherit;
+}
+
+/* ----------------------------------------------------------------------------------------------------- Unsimple Group */
+/* Input Settings */
+/* -------------------------------------------------------------------------------------------------------------------- */
+input, button, select, textarea {
+    outline: none;
+    border: none;
+    font-family: 'Geometria';
+    color: #3d3934;
+}
+
+select, button {
+    cursor: pointer;
+}
+
+::-webkit-input-placeholder {
+    opacity: 1;
+    -webkit-transition: all .3 ease-in-out;
+    -o-transition: all .3 ease-in-out;
+    transition: all .3 ease-in-out;
+    color: #5c5552;
+}
+
+::-moz-placeholder {
+    opacity: 1;
+    -webkit-transition: all .3 ease-in-out;
+    -o-transition: all .3 ease-in-out;
+    transition: all .3 ease-in-out;
+    color: #5c5552;
+}
+
+:-moz-placeholder {
+    opacity: 1;
+    -webkit-transition: all .3 ease-in-out;
+    -o-transition: all .3 ease-in-out;
+    transition: all .3 ease-in-out;
+    color: #5c5552;
+}
+
+:-ms-input-placeholder {
+    opacity: 1;
+    -webkit-transition: all .3 ease-in-out;
+    -o-transition: all .3 ease-in-out;
+    transition: all .3 ease-in-out;
+    color: #5c5552;
+}
+
+:focus::-webkit-input-placeholder {
+    opacity: 0;
+    -webkit-transition: all .3 ease-in-out;
+    -o-transition: all .3 ease-in-out;
+    transition: all .3 ease-in-out;
+    color: #5c5552;
+}
+
+:focus::-moz-placeholder {
+    opacity: 0;
+    -webkit-transition: all .3 ease-in-out;
+    -o-transition: all .3 ease-in-out;
+    transition: all .3 ease-in-out;
+    color: #5c5552;
+}
+
+:focus:-moz-placeholder {
+    opacity: 0;
+    -webkit-transition: all .3 ease-in-out;
+    -o-transition: all .3 ease-in-out;
+    transition: all .3 ease-in-out;
+    color: #5c5552;
+}
+
+:focus:-ms-input-placeholder {
+    opacity: 0;
+    -webkit-transition: all .3 ease-in-out;
+    -o-transition: all .3 ease-in-out;
+    transition: all .3 ease-in-out;
+    color: #5c5552;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    margin: 0;
+    -webkit-appearance: none;
+}
+
+/* ----------------------------------------------------------------------------------------------------- Unsimple Group */
+/* Flex Box */
+/* -------------------------------------------------------------------------------------------------------------------- */
+.flex-sbc {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.flex-sbs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.flex-sbe {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+}
+
+.flex-cc {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.flex-cs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.flex-ce {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+}
+
+.flex-sc {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.flex-ss {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.flex-se {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+}
+
+.flex-ec {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.flex-es {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.flex-ee {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+}
+
+/* ----------------------------------------------------------------------------------------------------- Unsimple Group */
+/* Button */
+/* -------------------------------------------------------------------------------------------------------------------- */
+.button {
+    width: 100%;
+    height: 68px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+}
+
+.button.small {
+    height: 45px;
+    background: url("../images/bg/button_small_left_bg.png") top left no-repeat, url("../images/bg/button_small_right_bg.png") top right no-repeat;
+    background-position: 3px 0px, calc(100% - 3px) 0px;
+    -webkit-transition: -webkit-filter .3s ease-in-out;
+    transition: -webkit-filter .3s ease-in-out;
+    -o-transition: filter .3s ease-in-out;
+    transition: filter .3s ease-in-out;
+    transition: filter .3s ease-in-out, -webkit-filter .3s ease-in-out;
+}
+
+.button.small:hover {
+    -webkit-filter: brightness(120%);
+    filter: brightness(120%);
+}
+
+.button.small:after {
+    content: '';
+    width: calc(100% - 26px);
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 13px;
+    z-index: 1;
+    background: url("../images/bg/button_small_center_bg.png") top center no-repeat;
+    background-size: 100% 100%;
+}
+
+.button.small:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: url("../images/bg/button_left_bg.png") center left no-repeat, url("../images/bg/button_right_bg.png") center right no-repeat;
+}
+
+.button.small span {
+    position: relative;
+    z-index: 2;
+    font-family: 'King';
+    font-size: 16px;
+    line-height: 16px;
+    color: #e6d5bd;
+    text-transform: uppercase;
+    text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.5);
+    margin-top: 2px;
+}
+
+.button.big {
+    height: 68px;
+    background: url("../images/bg/button_big_left_bg.png") top left no-repeat, url("../images/bg/button_big_right_bg.png") top right no-repeat;
+    background-position: 3px 0px, calc(100% - 3px) 0px;
+    -webkit-transition: -webkit-filter .3s ease-in-out;
+    transition: -webkit-filter .3s ease-in-out;
+    -o-transition: filter .3s ease-in-out;
+    transition: filter .3s ease-in-out;
+    transition: filter .3s ease-in-out, -webkit-filter .3s ease-in-out;
+}
+
+.button.big:hover {
+    -webkit-filter: brightness(120%);
+    filter: brightness(120%);
+}
+
+.button.big:after {
+    content: '';
+    width: calc(100% - 38px);
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 19px;
+    z-index: 1;
+    background: url("../images/bg/button_big_center_bg.png") top center no-repeat;
+    background-size: 100% 100%;
+}
+
+.button.big:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: url("../images/bg/button_left_bg.png") center left no-repeat, url("../images/bg/button_right_bg.png") center right no-repeat;
+}
+
+.button.big span {
+    position: relative;
+    z-index: 2;
+    font-family: 'King';
+    font-size: 22px;
+    line-height: 22px;
+    color: #e6d5bd;
+    text-transform: uppercase;
+    text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.5);
+    margin-top: 2px;
+}
+
+/* ----------------------------------------------------------------------------------------------------- Unsimple Group */
+/* Support Messages */
+/* -------------------------------------------------------------------------------------------------------------------- */
+.hint_msg {
+    width: auto;
+    padding: 6px 10px;
+    border-radius: 4px;
+    background: #f1eee9;
+    border: 1px solid #e2dfd9;
+    font-family: 'Geometria-Medium';
+    color: #4d4438;
+    position: absolute;
+    z-index: 40;
+    font-size: 14px;
+    -webkit-animation: hint_msg_anim .5s normal forwards;
+    animation: hint_msg_anim .5s normal forwards;
+}
+
+@-webkit-keyframes hint_msg_anim {
+    from {
+        opacity: 0;
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translateY(0px);
+        transform: translateY(0px);
+    }
+}
+
+@keyframes hint_msg_anim {
+    from {
+        opacity: 0;
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translateY(0px);
+        transform: translateY(0px);
+    }
+}
+
+/* ----------------------------------------------------------------------------------------------------- Unsimple Group */
+/* Structure */
+/* -------------------------------------------------------------------------------------------------------------------- */
+body {
+    background: #f0eae5;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1920px;
+    min-width: 320px;
+    min-height: 100vh;
+    position: relative;
+    z-index: 1;
+    overflow-x: hidden;
+    margin: 0 auto;
+}
+
+.content-area {
+    width: 1440px;
+    height: auto;
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+}
+
+@media (max-width: 1500px) {
+    .content-area {
+        width: calc(100% - 60px);
+    }
+}
+
+@media (max-width: 1024px) {
+    .content-area {
+        width: calc(100% - 40px);
+    }
+}
+
+/* ----------------------------------------------------------------------------------------------------- Unsimple Group */
+/* Header */
+/* -------------------------------------------------------------------------------------------------------------------- */
+.header {
+    width: 100%;
+    background: url("../images/bg/header_bg.jpg") top center no-repeat;
+    position: relative;
+    z-index: 1;
+    padding-bottom: 168px;
+}
+
+@media (max-width: 660px) {
+    .header {
+        padding-bottom: 100px;
+    }
+}
+
+.header:after {
+    content: '';
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    left: 0px;
+    bottom: -370px;
+    background: url("../images/bg/content_top_bg.png") top center no-repeat;
+}
+
+@media (max-width: 660px) {
+    .header:after {
+        bottom: -400px;
+    }
+}
+
+.header__content {
+    width: 100%;
+    margin-top: 80px;
+    position: relative;
+    z-index: 1;
+}
+
+@media (max-width: 660px) {
+    .header__content {
+        margin-top: 50px;
+    }
+}
+
+.header__logo {
+    display: block;
+    width: 500px;
+    height: 160px;
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+    -webkit-transition: -webkit-filter .3s ease-in-out;
+    transition: -webkit-filter .3s ease-in-out;
+    -o-transition: filter .3s ease-in-out;
+    transition: filter .3s ease-in-out;
+    transition: filter .3s ease-in-out, -webkit-filter .3s ease-in-out;
+}
+
+@media (max-width: 660px) {
+    .header__logo {
+        width: 260px;
+        height: 72px;
+    }
+}
+
+.header__logo:hover {
+    -webkit-filter: brightness(140%);
+    filter: brightness(140%);
+}
+
+.header__logo img {
+    width: 500px;
+    height: 171px;
+    position: absolute;
+    top: -18px;
+    left: -24px;
+    pointer-events: none;
+}
+
+@media (max-width: 660px) {
+    .header__logo img {
+        width: 290px;
+        height: 100px;
+        top: -12px;
+        left: -16px;
+    }
+}
+
+.header__info {
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+@media (max-width: 660px) {
+    .header__info {
+        width: 100%;
+    }
+}
+
+.header__info-title {
+    font-family: 'King';
+    font-size: 24px;
+    line-height: 24px;
+    color: #484035;
+    text-align: center;
+}
+
+@media (max-width: 660px) {
+    .header__info-title {
+        font-size: 20px;
+        line-height: 20px;
+    }
+}
+
+.header__info-text {
+    font-size: 18px;
+    line-height: 22px;
+    color: #625547;
+    text-align: center;
+    margin-top: 15px;
+}
+
+@media (max-width: 660px) {
+    .header__info-text {
+        font-size: 16px;
+        line-height: 20px;
+        margin-top: 10px;
+    }
+}
+
+.header__button {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+@media (max-width: 660px) {
+    .header__button {
+        width: 260px;
+    }
+}
+
+.header__status {
+    width: 100%;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.header__status-online {
+    width: 100%;
+    font-family: 'King';
+    font-size: 30px;
+    line-height: 30px;
+    color: #4d4438;
+    text-align: center;
+}
+
+.header__status-online span {
+    font-family: 'King';
+    font-size: 30px;
+    line-height: 30px;
+    color: #8b5825;
+}
+
+.header__status-sub {
+    width: 100%;
+    font-family: 'King';
+    font-size: 16px;
+    line-height: 16px;
+    color: #4d4438;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.header__status-sub2 {
+    width: 100%;
+    font-family: 'Geometria-Medium';
+    font-size: 14px;
+    line-height: 14px;
+    color: #ce4335;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.header__status-link {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'King';
+    font-size: 16px;
+    line-height: 16px;
+    color: #4d4438;
+}
+
+.header__status-link a {
+    -webkit-transition: color .3s ease-in-out;
+    -o-transition: color .3s ease-in-out;
+    transition: color .3s ease-in-out;
+    text-decoration: underline;
+}
+
+.header__status-link a:hover {
+    color: #8b5825;
+    text-decoration: none;
+}
+
+/* ----------------------------------------------------------------------------------------------------- Unsimple Group */
+/* Navigation */
+/* -------------------------------------------------------------------------------------------------------------------- */
+.nav {
+    width: 100%;
+    height: 96px;
+    position: relative;
+    z-index: 2;
+    /* Links */
+    /* ---------------------------------------------------------------------------------------------------------------- */
+    /* Languages */
+    /* ---------------------------------------------------------------------------------------------------------------- */
+}
+
+.nav .content-area {
+    height: 100%;
+}
+
+.nav__links {
+    width: auto;
+}
+
+@media (max-width: 1024px) {
+    .nav__links {
+        width: 290px;
+        height: auto;
+        position: absolute;
+        top: 100%;
+        left: 0px;
+        background: #f5f4f2;
+        border-radius: 10px;
+        border: 1px solid #dacec4;
+        display: none;
+    }
+}
+
+@media (max-width: 560px) {
+    .nav__links {
+        width: 100%;
+    }
+}
+
+.nav__link {
+    width: auto;
+    font-family: 'King';
+    font-size: 16px;
+    line-height: 16px;
+    color: #484035;
+    text-transform: uppercase;
+    margin-right: 50px;
+}
+
+@media (max-width: 1360px) {
+    .nav__link {
+        font-size: 14px;
+        line-height: 14px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .nav__link {
+        width: 100%;
+    }
+}
+
+.nav__link a {
+    -webkit-transition: color .3s ease-in-out;
+    -o-transition: color .3s ease-in-out;
+    transition: color .3s ease-in-out;
+}
+
+.nav__link a:hover {
+    color: #835d39;
+}
+
+@media (max-width: 1024px) {
+    .nav__link a {
+        display: block;
+        width: 100%;
+        height: 100%;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 1360px) {
+    .nav__link {
+        margin-right: 30px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .nav__link {
+        margin-right: 0px;
+        border-bottom: 1px solid #dcdcdc;
+    }
+}
+
+.nav__langs {
+    width: 74px;
+    height: 33px;
+    position: relative;
+    margin-left: auto;
+    margin-right: 40px;
+}
+
+@media (max-width: 1360px) {
+    .nav__langs {
+        margin-right: 20px;
+    }
+}
+
+.nav__langs-arrow {
+    width: 7px;
+    height: 3px;
+    background: url(../images/icon/lang_arrow_icon.png) center center;
+    position: absolute;
+    right: 10px;
+    top: 25px;
+    -webkit-transition: -webkit-transform .3s ease-in-out;
+    transition: -webkit-transform .3s ease-in-out;
+    -o-transition: transform .3s ease-in-out;
+    transition: transform .3s ease-in-out;
+    transition: transform .3s ease-in-out, -webkit-transform .3s ease-in-out;
+}
+
+@media (max-width: 1360px) {
+    .nav__langs-arrow {
+        top: 24px;
+    }
+}
+
+.nav__langs-items {
+    width: calc(100% + 20px);
+    height: calc(100% + 20px);
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    border-radius: 4px;
+    overflow: hidden;
+    -webkit-transition: height .3s ease-in-out, background .3s ease-in-out;
+    -o-transition: height .3s ease-in-out, background .3s ease-in-out;
+    transition: height .3s ease-in-out, background .3s ease-in-out;
+}
+
+.nav__langs-items:hover {
+    height: 106px;
+    background: #f2efea;
+}
+
+.nav__langs-items:hover .navigation__langs-arrow {
+    -webkit-transform: scale(1, -1);
+    -ms-transform: scale(1, -1);
+    transform: scale(1, -1);
+}
+
+.nav__langs-item {
+    width: 100%;
+    padding: 10px;
+    -webkit-transition: background .2s ease-in-out;
+    -o-transition: background .2s ease-in-out;
+    transition: background .2s ease-in-out;
+}
+
+.nav__langs-item.active {
+    -webkit-box-ordinal-group: 0;
+    -ms-flex-order: -1;
+    order: -1;
+    pointer-events: none;
+}
+
+.nav__langs-item:not(.active):hover {
+    background: rgba(0, 0, 0, 0.03);
+}
+
+.nav__langs-item:not(.active) {
+    border-top: 1px solid #d6d3ce;
+}
+
+.nav__langs-item-icon {
+    width: 33px;
+    height: 33px;
+    border-radius: 33px;
+    overflow: hidden;
+    border: 3px solid #cdc6b9;
+    -webkit-box-shadow: 0px 0px 2px #3f3a34;
+    box-shadow: 0px 0px 2px #3f3a34;
+    position: relative;
+}
+
+.nav__langs-item-icon img {
+    display: block;
+    position: absolute;
+    top: calc((100% - 33px) / 2);
+    left: calc((100% - 33px) / 2);
+}
+
+.nav__langs-item-name {
+    width: calc(100% - 33px);
+    padding-left: 7px;
+    font-family: 'King';
+    font-size: 16px;
+    line-height: 16px;
+    color: #484035;
+    text-transform: uppercase;
+}
+
+@media (max-width: 1360px) {
+    .nav__langs-item-name {
+        font-size: 14px;
+        line-height: 14px;
+    }
+}
+
+.nav .button {
+    width: 220px;
+}
+
+@media (max-width: 1360px) {
+    .nav .button {
+        width: 180px;
+    }
+}
+
+@media (max-width: 380px) {
+    .nav .button {
+        width: 60px;
+    }
+}
+
+@media (max-width: 1360px) {
+    .nav .button span {
+        font-size: 14px;
+        line-height: 14px;
+    }
+}
+
+.nav .button span.icon {
+    display: none;
+    margin-top: -2px;
+}
+
+@media (max-width: 380px) {
+    .nav .button span.icon {
+        display: block;
+    }
+}
+
+@media (max-width: 380px) {
+    .nav .button span.text {
+        display: none;
+    }
+}
+
+.open-main-menu {
+    width: 24px;
+    height: 20px;
+    margin-right: auto;
+    position: relative;
+    cursor: pointer;
+    display: none;
+}
+
+@media (max-width: 1024px) {
+    .open-main-menu {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+}
+
+.open-main-menu:hover:after, .open-main-menu:hover:before {
+    background: #835d39;
+}
+
+.open-main-menu:hover .open-main-menu__item {
+    -webkit-transform: scale(0.7, 1);
+    -ms-transform: scale(0.7, 1);
+    transform: scale(0.7, 1);
+}
+
+.open-main-menu.active:after {
+    -webkit-transform: rotate(-135deg);
+    -ms-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+    top: calc((100% - 2px) / 2);
+}
+
+.open-main-menu.active:before {
+    -webkit-transform: rotate(135deg);
+    -ms-transform: rotate(135deg);
+    transform: rotate(135deg);
+    top: calc((100% - 2px) / 2);
+}
+
+.open-main-menu.active .open-main-menu__item {
+    -webkit-transform: scale(0, 1);
+    -ms-transform: scale(0, 1);
+    transform: scale(0, 1);
+}
+
+.open-main-menu:after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #484035;
+    position: absolute;
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    top: 0px;
+}
+
+.open-main-menu:before {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #484035;
+    position: absolute;
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    top: calc(100% - 2px);
+}
+
+.open-main-menu__item {
+    width: 100%;
+    height: 2px;
+    background: #484035;
+    position: absolute;
+    top: calc((100% - 2px) / 2);
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+/* ----------------------------------------------------------------------------------------------------- Unsimple Group */
+/* Main */
+/* -------------------------------------------------------------------------------------------------------------------- */
+.main {
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+/* ----------------------------------------------------------------------------------------------------- Unsimple Group */
+/* Articles */
+/* -------------------------------------------------------------------------------------------------------------------- */
+.articles {
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    padding-bottom: 90px;
+}
+
+@media (max-width: 660px) {
+    .articles {
+        padding-bottom: 60px;
+    }
+}
+
+.articles .content-area {
+    z-index: 2;
+}
+
+.articles:before {
+    content: '';
+    width: 100%;
+    height: 248px;
+    position: absolute;
+    z-index: 1;
+    left: 0px;
+    bottom: 0px;
+    background: url("../images/bg/news_bottom_bg.png") top center no-repeat;
+}
+
+.articles__empty {
+    width: 100%;
+    padding: 20px;
+    background: #f3c9c9;
+    border-radius: 15px;
+    -webkit-box-shadow: 0px 10px 20px rgba(77, 68, 56, 0.08);
+    box-shadow: 0px 10px 20px rgba(77, 68, 56, 0.08);
+    text-align: center;
+    font-family: 'Geometria-Medium';
+    font-size: 16px;
+    color: #d83215;
+}
+
+.articles__item {
+    width: calc((100% - 610px - 40px) / 2);
+    height: 370px;
+    background: #efece8;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    -webkit-box-shadow: 0px 10px 20px rgba(77, 68, 56, 0.08);
+    box-shadow: 0px 10px 20px rgba(77, 68, 56, 0.08);
+}
+
+@media (max-width: 1360px) {
+    .articles__item {
+        width: calc((100% - 40px) / 3);
+    }
+}
+
+@media (max-width: 960px) {
+    .articles__item {
+        width: 100%;
+    }
+}
+
+.articles__item:first-child {
+    width: 610px;
+}
+
+@media (max-width: 1360px) {
+    .articles__item:first-child {
+        width: calc((100% - 40px) / 3);
+    }
+}
+
+@media (max-width: 960px) {
+    .articles__item:first-child {
+        width: 100%;
+    }
+}
+
+.articles__item:not(:last-child) {
+    margin-right: 20px;
+}
+
+@media (max-width: 960px) {
+    .articles__item:not(:last-child) {
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+}
+
+.articles__item img {
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    left: calc((100% - 920px) / 2);
+}
+
+.articles__item:after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+    top: 0px;
+    left: 0px;
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(239, 236, 232, 0.95)), color-stop(30%, rgba(239, 236, 232, 0.8)), color-stop(60%, rgba(239, 236, 232, 0.5)), to(rgba(239, 236, 232, 0)));
+    background: -webkit-linear-gradient(bottom, rgba(239, 236, 232, 0.95) 0%, rgba(239, 236, 232, 0.8) 30%, rgba(239, 236, 232, 0.5) 60%, rgba(239, 236, 232, 0) 100%);
+    background: -o-linear-gradient(bottom, rgba(239, 236, 232, 0.95) 0%, rgba(239, 236, 232, 0.8) 30%, rgba(239, 236, 232, 0.5) 60%, rgba(239, 236, 232, 0) 100%);
+    background: linear-gradient(to top, rgba(239, 236, 232, 0.95) 0%, rgba(239, 236, 232, 0.8) 30%, rgba(239, 236, 232, 0.5) 60%, rgba(239, 236, 232, 0) 100%);
+}
+
+.articles__item-content {
+    width: 100%;
+    padding: 40px;
+    position: absolute;
+    z-index: 3;
+    bottom: 0px;
+    left: 0px;
+}
+
+@media (max-width: 1024px) {
+    .articles__item-content {
+        padding: 20px;
+    }
+}
+
+.articles__item-date {
+    width: auto;
+    padding: 4px 6px;
+    border-radius: 5px;
+    background: #eeb138;
+    font-family: 'Geometria-Bold';
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.articles__item-title {
+    width: 100%;
+    font-family: 'King';
+    font-size: 24px;
+    color: #4d4438;
+    margin-top: 10px;
+    line-height: 28px;
+    max-height: calc(28px * 2);
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+@media (max-width: 1024px) {
+    .articles__item-title {
+        font-size: 20px;
+        line-height: 24px;
+        max-height: calc(24px * 2);
+    }
+}
+
+.articles__item-text {
+    width: 100%;
+    font-family: 'Geometria-Medium';
+    font-size: 16px;
+    color: #7a6f63;
+    margin-top: 10px;
+    line-height: 20px;
+    max-height: calc(20px * 2);
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.articles__item-text p, .articles__item-text span, .articles__item-text a {
+    text-decoration: none;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    font-weight: inherit;
+    color: inherit;
+}
+
+.articles__item-button {
+    width: 182px;
+    height: 42px;
+    border-radius: 5px;
+    border: 2px solid #4d4438;
+    margin-top: 20px;
+    -webkit-transition: border .3s ease-in-out;
+    -o-transition: border .3s ease-in-out;
+    transition: border .3s ease-in-out;
+}
+
+@media (max-width: 1024px) {
+    .articles__item-button {
+        height: 36px;
+    }
+}
+
+.articles__item-button span {
+    font-family: 'Geometria-Medium';
+    font-size: 16px;
+    line-height: 16px;
+    color: #4d4438;
+    -webkit-transition: color .3s ease-in-out;
+    -o-transition: color .3s ease-in-out;
+    transition: color .3s ease-in-out;
+}
+
+.articles__item-button i {
+    font-size: 16px;
+    line-height: 16px;
+    color: #4d4438;
+    margin-left: 10px;
+    -webkit-transition: color .3s ease-in-out;
+    -o-transition: color .3s ease-in-out;
+    transition: color .3s ease-in-out;
+}
+
+.articles__item-button:hover {
+    border: 2px solid #835d39;
+}
+
+.articles__item-button:hover span, .articles__item-button:hover i {
+    color: #835d39;
+}
+
+/* ----------------------------------------------------------------------------------------------------- Unsimple Group */
+/* Information */
+/* -------------------------------------------------------------------------------------------------------------------- */
+.information {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    margin-top: -30px;
+    padding-top: calc(30px + 70px);
+    padding-bottom: 90px;
+    background: url("../images/bg/info_bg.jpg") #f5edea top center no-repeat;
+}
+
+@media (max-width: 660px) {
+    .information {
+        padding-top: calc(30px + 40px);
+        padding-bottom: 60px;
+    }
+}
+
+.information .content-area {
+    background: #f1eee9;
+    border-radius: 15px;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 5px 20px rgba(77, 68, 56, 0.08);
+    box-shadow: 0px 5px 20px rgba(77, 68, 56, 0.08);
+}
+
+.information__box {
+    width: calc(100% / 3);
+    padding: 40px;
+    -ms-flex-item-align: stretch;
+    -ms-grid-row-align: stretch;
+    align-self: stretch;
+}
+
+@media (max-width: 1024px) {
+    .information__box {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 960px) {
+    .information__box {
+        width: 100%;
+    }
+}
+
+.information__box:not(:last-child) {
+    border-right: 1px solid #e2dfd9;
+}
+
+@media (max-width: 960px) {
+    .information__box:not(:last-child) {
+        border-right: 0px solid #e2dfd9;
+        border-bottom: 1px solid #e2dfd9;
+    }
+}
+
+.information__box-empty {
+    width: 100%;
+    padding: 20px;
+    background: #f3c9c9;
+    border-radius: 15px;
+    -webkit-box-shadow: 0px 10px 20px rgba(77, 68, 56, 0.08);
+    box-shadow: 0px 10px 20px rgba(77, 68, 56, 0.08);
+    text-align: center;
+    font-family: 'Geometria-Medium';
+    font-size: 16px;
+    color: #d83215;
+}
+
+.information__box-title {
+    width: 100%;
+}
+
+.information__box-icon {
+    width: 30px;
+    height: 30px;
+    position: relative;
+}
+
+.information__box-icon img {
+    position: absolute;
+    top: calc((100% - 36px) / 2);
+    left: calc((100% - 36px) / 2);
+}
+
+.information__box-icon.castle-icon img {
+    top: calc(((100% - 36px) / 2) - 5px);
+}
+
+.information__box-name {
+    width: calc(100% - 30px);
+    padding-left: 15px;
+    font-family: 'King';
+    font-size: 24px;
+    color: #4d4438;
+}
+
+@media (max-width: 1024px) {
+    .information__box-name {
+        font-size: 20px;
+    }
+}
+
+.information__box-content {
+    width: 100%;
+    margin-top: 30px;
+}
+
+@media (max-width: 960px) {
+    .information__box-content {
+        margin-top: 20px;
+    }
+}
+
+/* ----------------------------------------------------------------------------------------------------- Unsimple Group */
+/* Top castle */
+/* -------------------------------------------------------------------------------------------------------------------- */
+.top-castle {
+    width: 100%;
+}
+
+.top-castle__title {
+    width: 100%;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e2dfd9;
+}
+
+.top-castle__title-col {
+    font-family: 'Geometria';
+    font-size: 14px;
+    line-height: 14px;
+    color: #b4ada6;
+}
+
+.top-castle__line {
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.top-castle__line:not(:last-child) {
+    border-bottom: 1px solid #e2dfd9;
+}
+
+.top-castle__line:last-child {
+    padding-bottom: 0px;
+}
+
+.top-castle__line-icon {
+    width: 35px;
+    height: 35px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 35px;
+}
+
+.top-castle__line-icon img {
+    position: absolute;
+    display: block;
+    height: 38px;
+    top: -2px;
+    left: -2px;
+}
+
+.top-castle__line-name {
+    width: calc((100% - 35px) / 2);
+    padding-left: 10px;
+    font-family: 'Geometria-Medium';
+    font-size: 16px;
+    line-height: 16px;
+    color: #7a6f63;
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+
+@media (max-width: 1024px) {
+    .top-castle__line-name {
+        font-size: 14px;
+        line-height: 14px;
+    }
+}
+
+.top-castle__line-name span {
+    text-decoration: none;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    font-weight: inherit;
+    color: inherit;
+}
+
+.top-castle__line-clan {
+    width: calc((100% - 35px) / 2);
+    text-align: right;
+    font-family: 'Geometria-Medium';
+    font-size: 16px;
+    line-height: 16px;
+    color: #4d4438;
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+
+@media (max-width: 1024px) {
+    .top-castle__line-clan {
+        font-size: 14px;
+        line-height: 14px;
+    }
+}
+
+.top-castle__line-clan span {
+    text-decoration: none;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    font-weight: inherit;
+    color: inherit;
+}
+
+/* ----------------------------------------------------------------------------------------------------- Unsimple Group */
+/* Top players */
+/* -------------------------------------------------------------------------------------------------------------------- */
+.top-players {
+    width: 100%;
+}
+
+.top-players__title {
+    width: 100%;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e2dfd9;
+}
+
+.top-players__title-icon, .top-players__title-name, .top-players__title-pvp, .top-players__title-pk {
+    font-family: 'Geometria';
+    font-size: 14px;
+    line-height: 14px;
+    color: #b4ada6;
+}
+
+.top-players__title-icon {
+    width: 35px;
+    text-align: center;
+}
+
+.top-players__title-name {
+    width: calc(100% - 35px - 70px - 70px);
+    padding-left: 10px;
+}
+
+@media (max-width: 1024px) {
+    .top-players__title-name {
+        width: calc(100% - 35px - 50px - 50px);
+    }
+}
+
+.top-players__title-pvp, .top-players__title-pk {
+    width: 70px;
+    text-align: right;
+}
+
+@media (max-width: 1024px) {
+    .top-players__title-pvp, .top-players__title-pk {
+        width: 50px;
+    }
+}
+
+.top-players__line {
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.top-players__line:not(:last-child) {
+    border-bottom: 1px solid #e2dfd9;
+}
+
+.top-players__line:last-child {
+    padding-bottom: 0px;
+}
+
+.top-players__line-icon {
+    width: 35px;
+    height: 35px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 35px;
+    background: #e3dcd7;
+    font-family: 'King';
+    color: #6b5c4f;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.top-players__line:nth-child(2) .top-players__line-icon {
+    background: url("../images/icon/top_1_bg.png");
+    font-family: 'King-Bold';
+    color: #6f4b11;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5);
+}
+
+.top-players__line:nth-child(3) .top-players__line-icon {
+    background: url("../images/icon/top_2_bg.png");
+    font-family: 'King-Bold';
+    color: #545a67;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5);
+}
+
+.top-players__line:nth-child(4) .top-players__line-icon {
+    background: url("../images/icon/top_3_bg.png");
+    font-family: 'King-Bold';
+    color: #6b5c4f;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5);
+}
+
+.top-players__line-name {
+    width: calc(100% - 35px - 70px - 70px);
+    padding-left: 10px;
+    font-family: 'Geometria-Medium';
+    font-size: 16px;
+    line-height: 16px;
+    color: #7a6f63;
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+
+@media (max-width: 1024px) {
+    .top-players__line-name {
+        width: calc(100% - 35px - 50px - 50px);
+        font-size: 14px;
+        line-height: 14px;
+    }
+}
+
+.top-players__line-name span {
+    text-decoration: none;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    font-weight: inherit;
+    color: inherit;
+}
+
+.top-players__line-pvp, .top-players__line-pk {
+    width: 70px;
+    text-align: right;
+    font-family: 'Geometria-Medium';
+    font-size: 16px;
+    line-height: 16px;
+    color: #4d4438;
+}
+
+@media (max-width: 1024px) {
+    .top-players__line-pvp, .top-players__line-pk {
+        width: 50px;
+        font-size: 14px;
+        line-height: 14px;
+    }
+}
+
+.top-players__line-pvp span, .top-players__line-pk span {
+    text-decoration: none;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    font-weight: inherit;
+    color: inherit;
+}
+
+/* ----------------------------------------------------------------------------------------------------- Unsimple Group */
+/* Posts */
+/* -------------------------------------------------------------------------------------------------------------------- */
+.posts {
+    width: 100%;
+}
+
+.posts__item {
+    width: 100%;
+    padding: 15px 0px;
+}
+
+.posts__item:not(:last-child) {
+    border-bottom: 1px solid #e2dfd9;
+}
+
+.posts__item:last-child {
+    padding-bottom: 0px;
+}
+
+.posts__item:first-child {
+    padding-top: 0px;
+}
+
+.posts__item-icon {
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 60px;
+    background: #e3dcd7;
+}
+
+.posts__item-icon img {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.posts__item-info {
+    width: calc(100% - 60px);
+    padding-left: 15px;
+}
+
+.posts__item-title {
+    width: 100%;
+    font-family: 'Geometria-Medium';
+    font-size: 18px;
+    line-height: 18px;
+    color: #4d4438;
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+
+@media (max-width: 1024px) {
+    .posts__item-title {
+        font-size: 16px;
+        line-height: 16px;
+    }
+}
+
+.posts__item-title a {
+    -webkit-transition: color .3s ease-in-out;
+    -o-transition: color .3s ease-in-out;
+    transition: color .3s ease-in-out;
+}
+
+.posts__item-title a:hover {
+    color: #835d39;
+}
+
+.posts__item-sub {
+    width: 100%;
+}
+
+.posts__item-author {
+    margin-top: 6px;
+    font-family: 'Geometria';
+    font-size: 14px;
+    line-height: 14px;
+    color: #86817c;
+    margin-right: 15px;
+}
+
+.posts__item-author a {
+    -webkit-transition: color .3s ease-in-out;
+    -o-transition: color .3s ease-in-out;
+    transition: color .3s ease-in-out;
+}
+
+.posts__item-author a:hover {
+    color: #835d39;
+}
+
+.posts__item-date {
+    margin-top: 6px;
+    font-family: 'Geometria';
+    font-size: 14px;
+    line-height: 14px;
+    color: #b4ada6;
+}
+
+/* ----------------------------------------------------------------------------------------------------- Unsimple Group */
+/* Static page */
+/* -------------------------------------------------------------------------------------------------------------------- */
+.start-page {
+    width: 100%;
+    padding-bottom: 130px;
+}
+
+@media (max-width: 660px) {
+    .start-page {
+        padding-bottom: 90px;
+    }
+}
+
+.start-page__title {
+    width: 100%;
+    font-family: 'King';
+    font-size: 32px;
+    line-height: 32px;
+    color: #4d4438;
+    margin-top: -20px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+@media (max-width: 1024px) {
+    .start-page__title {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+}
+
+.start-page__content {
+    width: 100%;
+}
+
+.start-page__box {
+    width: calc((100% - 20px) / 2);
+    padding: 40px;
+    background: #f1eee9;
+    border-radius: 15px;
+    -webkit-box-shadow: 0px 5px 20px rgba(77, 68, 56, 0.08);
+    box-shadow: 0px 5px 20px rgba(77, 68, 56, 0.08);
+    -ms-flex-item-align: stretch;
+    -ms-grid-row-align: stretch;
+    align-self: stretch;
+}
+
+@media (max-width: 960px) {
+    .start-page__box {
+        width: 100%;
+    }
+}
+
+@media (max-width: 960px) {
+    .start-page__box:not(:last-child) {
+        margin-bottom: 20px;
+    }
+}
+
+.start-page__box.reg {
+    background: url("../images/bg/reg_bg.png") #f1eee9 top right no-repeat;
+}
+
+.start-page__box.files {
+    background: url("../images/bg/files_bg.png") #f1eee9 top right no-repeat;
+}
+
+@media (max-width: 1024px) {
+    .start-page__box {
+        padding: 20px;
+    }
+}
+
+.start-page__box-title {
+    width: 100%;
+    border-bottom: 1px solid rgba(63, 58, 52, 0.1);
+    padding-bottom: 20px;
+}
+
+.start-page__box-icon {
+    width: 30px;
+    height: 30px;
+    position: relative;
+}
+
+.start-page__box-icon img {
+    position: absolute;
+    top: calc((100% - 36px) / 2);
+    left: calc((100% - 36px) / 2);
+}
+
+.start-page__box-name {
+    width: calc(100% - 30px);
+    padding-left: 15px;
+    font-family: 'King';
+    font-size: 24px;
+    color: #4d4438;
+}
+
+@media (max-width: 1024px) {
+    .start-page__box-name {
+        font-size: 20px;
+    }
+}
+
+.start-page__box-content {
+    width: 100%;
+    margin-top: 20px;
+}
+
+@media (max-width: 960px) {
+    .start-page__box-content {
+        margin-top: 20px;
+    }
+}
+
+/* ----------------------------------------------------------------------------------------------------- Unsimple Group */
+/* Reg info */
+/* -------------------------------------------------------------------------------------------------------------------- */
+.reg-info {
+    width: 100%;
+}
+
+.reg-info__box {
+    width: 100%;
+}
+
+.reg-info__box:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.reg-info__title {
+    width: 100%;
+    font-family: 'Geometria-Bold';
+    font-size: 18px;
+    line-height: 18px;
+    color: #4d4438;
+}
+
+.reg-info__title span {
+    color: #cb6701;
+}
+
+.reg-info__text {
+    width: 100%;
+    font-size: 16px;
+    line-height: 20px;
+    color: #4d4438;
+    margin-top: 15px;
+}
+
+.reg-info__text span {
+    color: #cb6701;
+}
+
+.reg-info__button {
+    width: 200px;
+    height: 42px;
+    border-radius: 5px;
+    border: 2px solid #4d4438;
+    margin-top: 20px;
+    -webkit-transition: border .3s ease-in-out;
+    -o-transition: border .3s ease-in-out;
+    transition: border .3s ease-in-out;
+}
+
+@media (max-width: 1024px) {
+    .reg-info__button {
+        height: 36px;
+    }
+}
+
+.reg-info__button span {
+    font-family: 'Geometria-Medium';
+    font-size: 16px;
+    line-height: 16px;
+    color: #4d4438;
+    -webkit-transition: color .3s ease-in-out;
+    -o-transition: color .3s ease-in-out;
+    transition: color .3s ease-in-out;
+}
+
+.reg-info__button i {
+    font-size: 16px;
+    line-height: 16px;
+    color: #4d4438;
+    margin-right: 10px;
+    -webkit-transition: color .3s ease-in-out;
+    -o-transition: color .3s ease-in-out;
+    transition: color .3s ease-in-out;
+}
+
+.reg-info__button:hover {
+    border: 2px solid #835d39;
+}
+
+.reg-info__button:hover span, .reg-info__button:hover i {
+    color: #835d39;
+}
+
+/* ----------------------------------------------------------------------------------------------------- Unsimple Group */
+/* Files info */
+/* -------------------------------------------------------------------------------------------------------------------- */
+.files-info {
+    width: 100%;
+}
+
+.files-info__box {
+    width: 100%;
+}
+
+.files-info__box:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.files-info__title {
+    width: 100%;
+    font-family: 'Geometria-Bold';
+    font-size: 18px;
+    line-height: 18px;
+    color: #4d4438;
+}
+
+.files-info__title span {
+    color: #cb6701;
+}
+
+.files-info__text {
+    width: 100%;
+    font-size: 16px;
+    line-height: 20px;
+    color: #4d4438;
+    margin-top: 15px;
+}
+
+.files-info__text span {
+    color: #cb6701;
+}
+
+.files-info__buttons {
+    width: calc(100% + 10px);
+    margin: -5px;
+    margin-top: 15px;
+}
+
+.files-info__button {
+    width: auto;
+    padding: 0px 15px;
+    margin: 5px;
+    height: 42px;
+    border-radius: 5px;
+    border: 2px solid #4d4438;
+    -webkit-transition: border .3s ease-in-out;
+    -o-transition: border .3s ease-in-out;
+    transition: border .3s ease-in-out;
+}
+
+@media (max-width: 1024px) {
+    .files-info__button {
+        height: 36px;
+    }
+}
+
+.files-info__button span {
+    font-family: 'Geometria-Medium';
+    font-size: 16px;
+    line-height: 16px;
+    color: #4d4438;
+    -webkit-transition: color .3s ease-in-out;
+    -o-transition: color .3s ease-in-out;
+    transition: color .3s ease-in-out;
+}
+
+.files-info__button i {
+    font-size: 16px;
+    line-height: 16px;
+    color: #4d4438;
+    margin-right: 10px;
+    -webkit-transition: color .3s ease-in-out;
+    -o-transition: color .3s ease-in-out;
+    transition: color .3s ease-in-out;
+}
+
+.files-info__button:hover {
+    border: 2px solid #835d39;
+}
+
+.files-info__button:hover span, .files-info__button:hover i {
+    color: #835d39;
+}
+
+/* ----------------------------------------------------------------------------------------------------- Unsimple Group */
+/* Static page */
+/* -------------------------------------------------------------------------------------------------------------------- */
+.static-page {
+    width: 100%;
+    padding-bottom: 130px;
+}
+
+@media (max-width: 660px) {
+    .static-page {
+        padding-bottom: 90px;
+    }
+}
+
+.static-page__content {
+    width: 100%;
+    height: auto;
+    padding: 40px;
+    background: rgba(241, 238, 233, 0.3);
+    border-radius: 15px;
+    -webkit-box-shadow: 0px 5px 20px rgba(77, 68, 56, 0.08);
+    box-shadow: 0px 5px 20px rgba(77, 68, 56, 0.08);
+}
+
+@media (max-width: 1024px) {
+    .static-page__content {
+        padding: 20px;
+    }
+}
+
+.static-page__title {
+    width: 100%;
+    font-family: 'King';
+    font-size: 32px;
+    line-height: 32px;
+    color: #4d4438;
+    margin-bottom: 25px;
+}
+
+@media (max-width: 1024px) {
+    .static-page__title {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+}
+
+.static-page__text {
+    width: 100%;
+}
+
+/* ----------------------------------------------------------------------------------------------------- Unsimple Group */
+/* Text box */
+/* -------------------------------------------------------------------------------------------------------------------- */
+.text-box {
+    font-family: 'Geometria';
+    font-size: 16px;
+    line-height: 24px;
+    color: #75716e;
+}
+
+@media (max-width: 1024px) {
+    .text-box {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+.text-box > *:not(:first-child) {
+    margin-top: 10px;
+}
+
+.text-box a {
+    color: #b76524;
+    text-decoration: underline;
+    -webkit-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.text-box a:hover {
+    color: #3a1d07;
+}
+
+.text-box b {
+    font-family: 'Geometria-Bold';
+    color: #79614f;
+}
+
+.text-box h1, .text-box h2, .text-box h3, .text-box h4, .text-box h5, .text-box h6 {
+    font-family: 'Geometria-Bold';
+    color: #4d4438;
+    padding-top: 10px;
+}
+
+@media (max-width: 1024px) {
+    .text-box h1:not(:last-child), .text-box h2:not(:last-child), .text-box h3:not(:last-child), .text-box h4:not(:last-child), .text-box h5:not(:last-child), .text-box h6:not(:last-child) {
+        margin-bottom: -5px;
+    }
+}
+
+.text-box h1 {
+    font-size: 26px;
+}
+
+@media (max-width: 1024px) {
+    .text-box h1 {
+        font-size: 22px;
+    }
+}
+
+.text-box h2 {
+    font-size: 22px;
+}
+
+@media (max-width: 1024px) {
+    .text-box h2 {
+        font-size: 18px;
+    }
+}
+
+.text-box h3 {
+    font-size: 20px;
+}
+
+@media (max-width: 1024px) {
+    .text-box h3 {
+        font-size: 16px;
+    }
+}
+
+.text-box h4, .text-box h5, .text-box h6 {
+    font-size: 16px;
+}
+
+@media (max-width: 1024px) {
+    .text-box h4, .text-box h5, .text-box h6 {
+        font-size: 14px;
+    }
+}
+
+.text-box ul {
+    width: 100%;
+    padding-left: 17px;
+}
+
+.text-box ul li {
+    color: #75716e;
+}
+
+.text-box ul li:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+/* ----------------------------------------------------------------------------------------------------- Unsimple Group */
+/* Table */
+/* -------------------------------------------------------------------------------------------------------------------- */
+.table {
+    width: 100%;
+    margin-top: 15px !important;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+@media (max-width: 840px) {
+    .table {
+        border: 1px solid #d0c1b5;
+        border-radius: 10px;
+    }
+}
+
+.table__tr {
+    width: 100%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    background: #e0d8d2;
+}
+
+.table__tr:not(:last-child) {
+    border-bottom: 1px dotted #d0c1b5;
+}
+
+.table__tr:first-child {
+    border-bottom: 1px solid #8c7c70;
+    background: #b1a296;
+}
+
+.table__tr:nth-child(n+3):nth-child(odd) {
+    background: #e8e2dd;
+}
+
+@media (max-width: 840px) {
+    .table__tr:first-child {
+        display: none;
+    }
+}
+
+.table__tr:first-child .table__td {
+    font-family: 'Geometria-Bold';
+    color: #424141;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+@media (max-width: 1024px) {
+    .table__tr:first-child .table__td {
+        font-size: 14px;
+        line-height: 14px;
+    }
+}
+
+.table__td {
+    height: auto !important;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-item-align: stretch;
+    -ms-grid-row-align: stretch;
+    align-self: stretch;
+    padding: 15px 20px;
+    text-align: center;
+    font-family: 'Geometria-Medium';
+    color: #776f6f;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+@media (max-width: 1024px) {
+    .table__td {
+        font-size: 14px;
+        line-height: 14px;
+        padding: 10px 10px;
+    }
+}
+
+@media (max-width: 840px) {
+    .table__td {
+        width: 100% !important;
+        text-align: left;
+    }
+
+    .table__td:not(:last-child) {
+        border-bottom: 1px dotted #d0c1b5;
+    }
+
+    .table__td:before {
+        content: attr(data-title);
+        font-weight: 400;
+        color: #424141;
+    }
+}
+
+.table__td:first-child {
+    text-align: left;
+}
+
+.table__td:last-child {
+    text-align: right;
+}
+
+@media (max-width: 840px) {
+    .table__td:last-child {
+        text-align: left;
+    }
+}
+
+/* ----------------------------------------------------------------------------------------------------- Unsimple Group */
+/* Footer */
+/* -------------------------------------------------------------------------------------------------------------------- */
+.footer {
+    width: 100%;
+    background: url("../images/bg/footer_bg.png") top center no-repeat;
+    padding: 80px 0px 50px;
+    position: relative;
+    z-index: 3;
+    margin-top: -50px;
+}
+
+.footer__cpr {
+    width: 480px;
+}
+
+@media (max-width: 1250px) {
+    .footer__cpr {
+        width: 380px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .footer__cpr {
+        width: 100%;
+    }
+}
+
+.footer__cpr-logo {
+    width: 257px;
+    height: 48px;
+}
+
+@media (max-width: 1024px) {
+    .footer__cpr-logo {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 450px) {
+    .footer__cpr-logo {
+        width: 200px;
+        height: 37px;
+    }
+}
+
+.footer__cpr-logo img {
+    display: block;
+    width: 257px;
+    height: 48px;
+}
+
+@media (max-width: 450px) {
+    .footer__cpr-logo img {
+        width: 200px;
+        height: 37px;
+    }
+}
+
+.footer__cpr-text {
+    margin-top: 15px;
+    width: 100%;
+    font-family: 'Geometria-Medium';
+    font-size: 10px;
+    line-height: 14px;
+    color: #97897c;
+}
+
+@media (max-width: 1024px) {
+    .footer__cpr-text {
+        text-align: center;
+    }
+}
+
+.footer__nav {
+    width: auto;
+}
+
+@media (max-width: 1024px) {
+    .footer__nav {
+        width: 100%;
+        margin-top: 40px;
+    }
+}
+
+.footer__nav-col {
+    width: 160px;
+}
+
+@media (max-width: 1024px) {
+    .footer__nav-col {
+        width: 50%;
+    }
+}
+
+@media (max-width: 450px) {
+    .footer__nav-col {
+        width: 100%;
+    }
+}
+
+.footer__nav-col:not(:last-child) {
+    margin-right: 80px;
+}
+
+@media (max-width: 1250px) {
+    .footer__nav-col:not(:last-child) {
+        margin-right: 40px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .footer__nav-col:not(:last-child) {
+        margin-right: 0px;
+    }
+}
+
+@media (max-width: 450px) {
+    .footer__nav-col:not(:last-child) {
+        margin-bottom: 25px;
+    }
+}
+
+.footer__nav-item {
+    font-family: 'Geometria';
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 14px;
+    color: #97897c;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 1024px) {
+    .footer__nav-item {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.footer__nav-item a {
+    -webkit-transition: color .3s ease-in-out;
+    -o-transition: color .3s ease-in-out;
+    transition: color .3s ease-in-out;
+    text-decoration: underline;
+}
+
+.footer__nav-item a:hover {
+    color: #61554a;
+    text-decoration: none;
+}
+
+.footer__right {
+    width: auto;
+}
+
+@media (max-width: 1024px) {
+    .footer__right {
+        width: 100%;
+        margin-top: 40px;
+    }
+}
+
+.footer__social {
+    width: auto;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 1024px) {
+    .footer__social {
+        width: 100%;
+    }
+}
+
+.footer__social a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    border: 2px solid #97897c;
+    color: #97897c;
+    -webkit-transition: color .3s ease-in-out, border .3s ease-in-out;
+    -o-transition: color .3s ease-in-out, border .3s ease-in-out;
+    transition: color .3s ease-in-out, border .3s ease-in-out;
+}
+
+.footer__social a:hover {
+    border: 2px solid #61554a;
+    color: #61554a;
+}
+
+.footer__social a:not(:last-child) {
+    margin-right: 17px;
+}
+
+.footer .unsimple {
+    display: block;
+    width: 152px;
+    height: 30px;
+    -webkit-transition: opacity .3s ease-in-out;
+    -o-transition: opacity .3s ease-in-out;
+    transition: opacity .3s ease-in-out;
+    opacity: 0.8;
+    margin-top: 30px;
+}
+
+@media (max-width: 1024px) {
+    .footer .unsimple {
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+}
+
+.footer .unsimple:hover {
+    opacity: 1;
+}
+
+.footer .unsimple img {
+    display: block;
+    width: 152px;
+    height: 30px;
+}
